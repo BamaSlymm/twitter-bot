@@ -41,7 +41,7 @@ const GenerateMessage = name => {
   ];
   const d = new Date();
   const dayName = days[d.getDay()];
-  return `Hi ${name} Thanks for .... \n Happy ${dayName} 😊😊 `; // your message
+  return `Hi ${name} Thanks for following @UGStreaming.\n We're a small streaming app that adds new content everyday from multiple streaming sources. To get started go to Plex.tv and create an account. Once you have subscribed (https://t.co/QEr0XbwXlg?amp=1), go to Plex and add UGStreaming in order to access our library. \n It's $9.99/month and the price will never go up. If you have requests, DM us and we'll get them up within the hour. \n Thank you for your support and interest and we hope to see you soon. \n \n The Underground Bot`; // your message
   // My message   return `Hi ${name} Thanks for being a part of my social media network. I'am the @PicsrushE founder,A new Online Image Editor completely with web technologies,I'm also a reactjs developer and medium blogger.\n Happy to discuss anytime 😊  \n Happy ${dayName} 😊😊 `;
 };
 
